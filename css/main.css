@@ -1,0 +1,89 @@
+:root {
+--colorFundo : rgb(62, 62, 135);
+--colorLetraFundo : #fff;
+--colorTabla: rgb(91, 82, 82);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+header{
+    background-color: var(--colorFundo);
+    color: var(--colorLetraFundo);
+    padding: 50px 0;
+}
+footer{
+    background-color: var(--colorFundo);
+    color: var(--colorLetraFundo);
+    text-align: center; 
+    font-size: 1.2rem;
+    grid-row-start: 3; 
+}
+
+
+main {
+    margin-top: 20px auto;
+    margin-top: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    min-height: 80vh; 
+  }
+  
+   
+
+
+main h2 {
+    font-size: 2rem;
+    padding: 30px 0;
+    color: var(--colorTabla);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #multas-table th  {
+    border-bottom: 1px solid var(--colorTabla);
+    text-align: center;
+    padding: 8px;
+    color: var(--colorTabla);
+ 
+  }
+
+  #multas-table td {
+    border-bottom: 1px solid var(--colorTabla);
+    color: var(--colorTabla);
+    text-align: center;
+    padding: 8px;
+ 
+  }
+  
+
+
+  #input-placa, #buttonPesquisar {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  
+  #mensajeError {
+    color: rgb(199, 32, 32);
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  }
+  
+  .delete-button {
+    background-color: rgb(189, 114, 114);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  

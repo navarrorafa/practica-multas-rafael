@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Multas</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="gridClass"></div>
+    <header>
+        <h1>Practica Multas</h1>
+    </header>
+
+    <main>
+        
+
+        <section id="search-section">
+            <h2>Pesquisa de Multas</h2>
+            <input type="text" id="input-placa" placeholder="Digite a placa do carro">
+            <button id="buttonPesquisar">Pesquisar</button>
+            <p id="mensajeError"></p>
+        </section>
+
+        <section id="multas-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Placa</th>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Multa</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="multasBody"></tbody>
+            </table>
+    </main>
+
+
+    <footer>
+        <p>copyrigth 2023</p>
+    </footer>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
